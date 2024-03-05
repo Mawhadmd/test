@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Document</title>
+    <style>
+      body {
+        margin: 90px 0 0 0;
+
+        background-image: url(tSm9g14Q4FGZsTedeViCWGYzrnbqhrLAYUZg-4F92t8.webp);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+      nav li {
+        text-align: center;
+        width: 4vw;
+        padding: clamp(2px, 0.5vw, 10px);
+        display: inline-block;
+        font-size: clamp(1px, 2vw, 24px);
+        transition: text-decoration 300ms ease-out, color 400ms, padding 400ms,
+          background-color 200ms, box-shadow 500ms ease-out,
+          border-radius 600ms ease-out;
+        border-radius: 4px;
+        background-color: rgb(255, 255, 255);
+      }
+
+      nav li:hover {
+        background-color: rgb(0, 0, 0);
+        text-decoration: underline;
+        color: rgb(253, 253, 253);
+    
+        cursor: pointer;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+      }
+      nav div img {
+        width: clamp(50px, 8vw, 100px);
+        margin-bottom: -4px;
+      }
+
+      nav ul {
+        width: clamp(140px, 40vw, 1400px);
+        display: flex;
+        column-gap: clamp(20px, 4vw, 60px);
+        height: fit;
+      }
+
+      nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 60px;
+        min-width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        justify-content: space-evenly;
+        box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.4);
+        background-color: rgb(198, 197, 197);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <ul>
+          <li><a>first1</a></li>
+          <li><a>first2</a></li>
+          <li><a>first3</a></li>
+          <li><a>first4</a></li>
+        </ul>
+
+        <div><img class="img1" src="dog.jpg" alt="" /></div>
+      </nav>
+    </div>
+    fuck
+  </body>
+</html>
